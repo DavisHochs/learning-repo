@@ -3,11 +3,16 @@
     font-size: 35px;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
 }
 
 #headingbar {
-    background-color: #002c73
+    background-color: #002c73;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+
+
 }
 
 .headingtext2 {
@@ -61,13 +66,22 @@
 
 }
 .foot   {
-    text-align: left;
+    padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: white;
+    float:left;
+    line-height: normal;
 
 }
 .links {
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
+    padding-left: 10px;
+    color: white;
+    float: auto;
+    line-height: normal;
 }
+
