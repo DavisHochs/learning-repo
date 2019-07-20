@@ -25,6 +25,7 @@
 .column {
     border-style: solid;
     border-color: #355487;
+    background-color: #b6becc;
     float: left;
     width: 48%;
     border-radius: 8px;
@@ -35,10 +36,10 @@
     float: right;
     width: 48%;
     margin: auto;
+    background-color: #b6becc;
     border-style: solid;
     border-radius: 8px;
     border-color: #355487;
-    
     margin-left: 10px;
   }
 .row{
@@ -56,32 +57,36 @@
 .para {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 #footer {
     background-color: #6a788f;
-    padding: 10px;
     margin-right: 30px;
     margin-left: 30px;
-
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
 }
-.foot   {
-    padding-right: 10px;
+
+.divText {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    vertical-align: middle;
-    color: white;
-    float:left;
-    line-height: normal;
-
 }
+
 .links {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    padding-left: 10px;
+    padding: 10px;
     color: white;
     float: auto;
     line-height: normal;
+}
+#barTest {
+    background-color: black;
 }
 
