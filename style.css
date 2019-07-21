@@ -8,9 +8,11 @@
 
 #headingbar {
     background-color: #002c73;
+    margin: 0 auto;
     border-style: solid;
     border-color: white;
     border-radius: 8px;
+    width: 1000px;
 
 
 }
@@ -22,31 +24,32 @@
 
 }
 
+
 .column {
-    border-style: solid;
-    border-color: #355487;
-    background-color: #b6becc;
     float: left;
-    width: 48%;
+    width: 450px;
+    background-color: #b6becc;
+    border: solid 3px #002c73;
     border-radius: 8px;
-    margin-right: 10px;
-    margin-top: auto;
 }
 .column2 {
     float: right;
-    width: 48%;
-    margin: auto;
+    width: 450px;
     background-color: #b6becc;
-    border-style: solid;
+    border: solid 3px #002c73;
     border-radius: 8px;
-    border-color: #355487;
-    margin-left: 10px;
   }
-.row{
-    content: "";
-    display: table;
-    clear: right;
+.clearfix {
+    width: 1000px;
+    margin: 0 auto;
 }
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 .image{
     display: block;
     margin-left: auto;
@@ -63,9 +66,9 @@
 
 #footer {
     background-color: #6a788f;
-    margin-right: 30px;
-    margin-left: 30px;
+    width: 1000px;
     padding: 10px;
+    margin: 0 auto;
     border-style: solid;
     border-color: white;
     border-radius: 8px;
@@ -86,7 +89,5 @@
     float: auto;
     line-height: normal;
 }
-#barTest {
-    background-color: black;
-}
+
 
